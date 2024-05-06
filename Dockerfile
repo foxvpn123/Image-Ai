@@ -7,7 +7,7 @@ RUN rm -rf /opt/conda/lib/python3.10/site-packages/cv2 && \
     apt-get install -y gcc git tzdata && \
     pip install --upgrade Pillow && \
     apt-get clean && \
-    rm -rf /tmp/* /var/cache/* /usr/share/doc/* /usr/share/man/* /var/lib/apt/lists/* && \
+    rm -rf /tmp/* /var/cache/* /usr/share/doc/* /usr/share/man/* /var/lib/apt/lists/*
 COPY . .
 RUN pip install . && rm -rf ./*
 
