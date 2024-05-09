@@ -26,7 +26,7 @@ setup(
         "click>=8.1.3",
         "fastapi==0.95.1",
         "pydantic<2.0.0",
-        "carefree-toolkit>=0.3.9",
+        "carefree-toolkit==0.3.9",
         "carefree-client>=0.1.10",
         "carefree-learn[cv_full]==0.4.8",
         "networkx",
